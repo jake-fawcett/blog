@@ -6,6 +6,12 @@ layout: none
 
 <html lang="en" class="sr">
   <head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="resources/images/favicon.png"
+    />
+    <title>Blog</title>
     <link rel="stylesheet" href="css/blog_index.css">
   </head>
 
@@ -17,7 +23,7 @@ layout: none
 
     {% for post in site.posts %}
         <div class="post">
-            <h2><a class="url" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2><a class="url" href="/blog/{{ post.url }}">{{ post.title }}</a></h2>
             <div class="tags">
                 <p><b>Tags: </b> {{ post.tags }}</p>
             </div>
