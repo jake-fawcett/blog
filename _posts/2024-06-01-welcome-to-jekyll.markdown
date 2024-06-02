@@ -1,10 +1,13 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2024-06-01 21:16:14 +0100
+date:   2024-06-01 09:00:00 +0100
+author: Jake Fawcett
 permalink: :title
 tags: Test
+intro: This is an Introduction to Jekyll that is Automatically generated.
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
